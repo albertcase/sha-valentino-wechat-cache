@@ -58,10 +58,10 @@ class wechatfun{
   }
 
   public function access_ticket_Renew(){
-    $access_ticket = $access_token = $this->_redis->get($this->_wechatinfo['access_ticket']);
+    $access_ticket = $this->_redis->get($this->_wechatinfo['access_ticket']);
     if(!$access_ticket){
       $this->access_token_Renew();
-      $access_ticket = $access_token = $this->_redis->get($this->_wechatinfo['access_ticket']);
+      $access_ticket = $this->_redis->get($this->_wechatinfo['access_ticket']);
     }
     return $access_ticket;
   }
