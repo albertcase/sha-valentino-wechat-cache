@@ -375,4 +375,49 @@ return array (
     'menuId' => 'tag585ba12535245',
     'MsgType' => 'news',
   ),
+  '上海' => 
+  array (
+    'menuId' => 'tag5864bfa7402ae',
+    'MsgType' => 'news',
+  ),
+  '成都' => 
+  array (
+    'menuId' => 'tag5864c260e5f7c',
+    'MsgType' => 'news',
+  ),
+  '无锡' => 
+  array (
+    'menuId' => 'tag5864c2f726afc',
+    'MsgType' => 'news',
+  ),
+  '沈阳' => 
+  array (
+    'menuId' => 'tag5864c35db45e5',
+    'MsgType' => 'news',
+  ),
+  '西安' => 
+  array (
+    'menuId' => 'tag5864c3b70aa07',
+    'MsgType' => 'news',
+  ),
+  '青岛' => 
+  array (
+    'menuId' => 'tag5864c4150988a',
+    'MsgType' => 'news',
+  ),
+  '厦门' => 
+  array (
+    'menuId' => 'tag5864c45b5b01f',
+    'MsgType' => 'news',
+  ),
+  '香港' => 
+  array (
+    'menuId' => 'tag5864c5350800d',
+    'MsgType' => 'news',
+  ),
+  '北京' => 
+  array (
+    'menuId' => 'tag5864c70172e1f',
+    'MsgType' => 'news',
+  ),
 );

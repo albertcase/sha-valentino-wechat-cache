@@ -180,4 +180,58 @@ return array (
     'MsgType' => 'news',
     'MsgData' => '{"Articles":[{"Title":"testesteetsttestesteetsttestesteetst","Description":"DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD","Url":"https:\\/\\/mp.weixin.qq.com\\/wiki?t=resource\\/res_main&id=mp1421141115&token=&lang=zh_CN","PicUrl":"http:\\/\\/valentinowechat.samesamechina.com\\/upload\\/image\\/201612\\/58622662cc4aa.jpg"}]}',
   ),
+  'tag5864bfa7402ae' => 
+  array (
+    'menuId' => 'tag5864bfa7402ae',
+    'MsgType' => 'news',
+    'MsgData' => '{"Articles":[{"Title":"Valentino上海益丰大厦精品店","Description":"Valentino上海益丰大厦精品店","Url":"http:\\/\\/valentinowechat.samesamechina.com\\/wechat\\/store\\/14","PicUrl":"http:\\/\\/valentinowechat.samesamechina.com\\/source\\/change\\/store\\/14.jpg"},{"Title":"Valentino上海恒隆广场男装精品店","Description":"Valentino上海恒隆广场男装精品店","Url":"http:\\/\\/valentinowechat.samesamechina.com\\/wechat\\/store\\/15","PicUrl":"http:\\/\\/valentinowechat.samesamechina.com\\/source\\/change\\/store\\/15.jpg"},{"Title":"Valentino上海恒隆广场女装精品店","Description":"Valentino上海恒隆广场女装精品店","Url":"http:\\/\\/valentinowechat.samesamechina.com\\/wechat\\/store\\/16","PicUrl":"http:\\/\\/valentinowechat.samesamechina.com\\/source\\/change\\/store\\/16.jpg"},{"Title":"Valentino上海国金中心精品店","Description":"Valentino上海国金中心精品店","Url":"http:\\/\\/valentinowechat.samesamechina.com\\/wechat\\/store\\/17","PicUrl":"http:\\/\\/valentinowechat.samesamechina.com\\/source\\/change\\/store\\/17.jpg"},{"Title":"Valentino上海环贸广场女装旗舰店","Description":"Valentino上海环贸广场女装旗舰店","Url":"http:\\/\\/valentinowechat.samesamechina.com\\/wechat\\/store\\/18","PicUrl":"http:\\/\\/valentinowechat.samesamechina.com\\/source\\/change\\/store\\/18.jpg"},{"Title":"Valentino上海IFC国金中心精品店","Description":"Valentino上海IFC国金中心精品店","Url":"http:\\/\\/valentinowechat.samesamechina.com\\/wechat\\/store\\/26","PicUrl":"http:\\/\\/valentinowechat.samesamechina.com\\/source\\/change\\/store\\/26.jpg"}]}',
+  ),
+  'tag5864c260e5f7c' => 
+  array (
+    'menuId' => 'tag5864c260e5f7c',
+    'MsgType' => 'news',
+    'MsgData' => '{"Articles":[{"Title":"Valentino成都仁恒置地广场女装精品店","Description":"Valentino成都仁恒置地广场女装精品店","Url":"http:\\/\\/valentinowechat.samesamechina.com\\/wechat\\/store\\/19","PicUrl":"http:\\/\\/valentinowechat.samesamechina.com\\/source\\/change\\/store\\/19.jpg"},{"Title":"Valentino成都国际金融中心旗舰店","Description":"Valentino成都国际金融中心旗舰店","Url":"http:\\/\\/valentinowechat.samesamechina.com\\/wechat\\/store\\/20","PicUrl":"http:\\/\\/valentinowechat.samesamechina.com\\/source\\/change\\/store\\/20.jpg"}]}',
+  ),
+  'tag5864c2f726afc' => 
+  array (
+    'menuId' => 'tag5864c2f726afc',
+    'MsgType' => 'news',
+    'MsgData' => '{"Articles":[{"Title":"Valentino无锡恒隆广场女装精品店","Description":"Valentino无锡恒隆广场女装精品店","Url":"http:\\/\\/valentinowechat.samesamechina.com\\/wechat\\/store\\/21","PicUrl":"http:\\/\\/valentinowechat.samesamechina.com\\/source\\/change\\/store\\/21.jpg"}]}',
+  ),
+  'tag5864c35db45e5' => 
+  array (
+    'menuId' => 'tag5864c35db45e5',
+    'MsgType' => 'news',
+    'MsgData' => '{"Articles":[{"Title":"Valentino沈阳恒隆广场旗舰店","Description":"Valentino沈阳恒隆广场旗舰店","Url":"http:\\/\\/valentinowechat.samesamechina.com\\/wechat\\/store\\/22","PicUrl":"http:\\/\\/valentinowechat.samesamechina.com\\/source\\/change\\/store\\/22.jpg"}]}',
+  ),
+  'tag5864c3b70aa07' => 
+  array (
+    'menuId' => 'tag5864c3b70aa07',
+    'MsgType' => 'news',
+    'MsgData' => '{"Articles":[{"Title":"Valentino西安时代广场旗舰店","Description":"Valentino西安时代广场旗舰店","Url":"http:\\/\\/valentinowechat.samesamechina.com\\/wechat\\/store\\/23","PicUrl":"http:\\/\\/valentinowechat.samesamechina.com\\/source\\/change\\/store\\/23.jpg"}]}',
+  ),
+  'tag5864c4150988a' => 
+  array (
+    'menuId' => 'tag5864c4150988a',
+    'MsgType' => 'news',
+    'MsgData' => '{"Articles":[{"Title":"Valentino青岛海信广场精品店","Description":"Valentino青岛海信广场精品店","Url":"http:\\/\\/valentinowechat.samesamechina.com\\/wechat\\/store\\/24","PicUrl":"http:\\/\\/valentinowechat.samesamechina.com\\/source\\/change\\/store\\/24.jpg"}]}',
+  ),
+  'tag5864c45b5b01f' => 
+  array (
+    'menuId' => 'tag5864c45b5b01f',
+    'MsgType' => 'news',
+    'MsgData' => '{"Articles":[{"Title":"Valentino厦门磐基中心女装精品店","Description":"Valentino厦门磐基中心女装精品店","Url":"http:\\/\\/valentinowechat.samesamechina.com\\/wechat\\/store\\/25","PicUrl":"http:\\/\\/valentinowechat.samesamechina.com\\/source\\/change\\/store\\/25.jpg"}]}',
+  ),
+  'tag5864c5350800d' => 
+  array (
+    'menuId' => 'tag5864c5350800d',
+    'MsgType' => 'news',
+    'MsgData' => '{"Articles":[{"Title":"Valentino香港Elements圆方男装精品店","Description":"Valentino香港Elements圆方男装精品店","Url":"http:\\/\\/valentinowechat.samesamechina.com\\/wechat\\/store\\/7","PicUrl":"http:\\/\\/valentinowechat.samesamechina.com\\/source\\/change\\/store\\/7.jpg"},{"Title":"Valentino香港Elements圆方女装精品店","Description":"Valentino香港Elements圆方女装精品店","Url":"http:\\/\\/valentinowechat.samesamechina.com\\/wechat\\/store\\/8","PicUrl":"http:\\/\\/valentinowechat.samesamechina.com\\/source\\/change\\/store\\/8.jpg"},{"Title":"Valentino香港国金中心女装精品店","Description":"Valentino香港国金中心女装精品店","Url":"http:\\/\\/valentinowechat.samesamechina.com\\/wechat\\/store\\/9","PicUrl":"http:\\/\\/valentinowechat.samesamechina.com\\/source\\/change\\/store\\/9.jpg"},{"Title":"Valentino香港置地广场男装精品店","Description":"Valentino香港置地广场男装精品店","Url":"http:\\/\\/valentinowechat.samesamechina.com\\/wechat\\/store\\/10","PicUrl":"http:\\/\\/valentinowechat.samesamechina.com\\/source\\/change\\/store\\/10.jpg"},{"Title":"Valentino香港置地广场女装精品店","Description":"Valentino香港置地广场女装精品店","Url":"http:\\/\\/valentinowechat.samesamechina.com\\/wechat\\/store\\/11","PicUrl":"http:\\/\\/valentinowechat.samesamechina.com\\/source\\/change\\/store\\/11.jpg"},{"Title":"Valentino香港广东道旗舰店","Description":"Valentino香港广东道旗舰店","Url":"http:\\/\\/valentinowechat.samesamechina.com\\/wechat\\/store\\/12","PicUrl":"http:\\/\\/valentinowechat.samesamechina.com\\/source\\/change\\/store\\/12.jpg"},{"Title":"Valentino香港国际机场精品店","Description":"Valentino香港国际机场精品店","Url":"http:\\/\\/valentinowechat.samesamechina.com\\/wechat\\/store\\/13","PicUrl":"http:\\/\\/valentinowechat.samesamechina.com\\/source\\/change\\/store\\/13.jpg"}]}',
+  ),
+  'tag5864c70172e1f' => 
+  array (
+    'menuId' => 'tag5864c70172e1f',
+    'MsgType' => 'news',
+    'MsgData' => '{"Articles":[{"Title":"Valentino北京王府井in88精品店","Description":"Valentino北京王府井in88精品店","Url":"http:\\/\\/valentinowechat.samesamechina.com\\/wechat\\/store\\/1","PicUrl":"http:\\/\\/valentinowechat.samesamechina.com\\/source\\/change\\/store\\/1.jpg"},{"Title":"Valentino北京银泰中心精品店","Description":"Valentino北京银泰中心精品店","Url":"http:\\/\\/valentinowechat.samesamechina.com\\/wechat\\/store\\/2","PicUrl":"http:\\/\\/valentinowechat.samesamechina.com\\/source\\/change\\/store\\/2.jpg"},{"Title":"Valentino北京新光天地精品店","Description":"Valentino北京新光天地精品店","Url":"http:\\/\\/valentinowechat.samesamechina.com\\/wechat\\/store\\/3","PicUrl":"http:\\/\\/valentinowechat.samesamechina.com\\/source\\/change\\/store\\/3.jpg"},{"Title":"Valentino北京新光天地精品店","Description":"Valentino北京新光天地精品店","Url":"http:\\/\\/valentinowechat.samesamechina.com\\/wechat\\/store\\/4","PicUrl":"http:\\/\\/valentinowechat.samesamechina.com\\/source\\/change\\/store\\/4.jpg"},{"Title":"Valentino北京新光天地男装精品店","Description":"Valentino北京新光天地男装精品店","Url":"http:\\/\\/valentinowechat.samesamechina.com\\/wechat\\/store\\/5","PicUrl":"http:\\/\\/valentinowechat.samesamechina.com\\/source\\/change\\/store\\/5.jpg"},{"Title":"Valentino北京新光天地女装精品店","Description":"Valentino北京新光天地女装精品店","Url":"http:\\/\\/valentinowechat.samesamechina.com\\/wechat\\/store\\/6","PicUrl":"http:\\/\\/valentinowechat.samesamechina.com\\/source\\/change\\/store\\/6.jpg"}]}',
+  ),
 );
