@@ -224,7 +224,7 @@ class WechatResponse{
 
   //sub function
   private function textField($key){
-    $list = $this->getfilecontainer(dirname(__FILE__).'./wechatcache/keywords.php');
+    $list = $this->getfilecontainer(dirname(__FILE__).'/wechatcache/keywords.php');
     if(isset($list[$key])){
       return $this->getFeedbacks($list[$key]['menuId']);
     }
@@ -232,7 +232,7 @@ class WechatResponse{
   }
 
   private function getFeedbacks($key){
-    $list = $this->getfilecontainer(dirname(__FILE__).'./wechatcache/feedbacks.php');
+    $list = $this->getfilecontainer(dirname(__FILE__).'/wechatcache/feedbacks.php');
     $result = array();
     if(isset($list[$key]))
       $result[0] = $list[$key];
@@ -240,35 +240,35 @@ class WechatResponse{
   }
 
   private function qrcodeSubscribeTimes($key){
-    $list = $this->getfilecontainer(dirname(__FILE__).'./wechatcache/qrcodes.php');
+    $list = $this->getfilecontainer(dirname(__FILE__).'/wechatcache/qrcodes.php');
     if(isset($list[$key]))
       return $this->getFeedbacks($list[$key]['feedbackid']);
     return array();
   }
 
   private function subscribeField(){
-    $list = $this->getfilecontainer(dirname(__FILE__).'./wechatcache/events.php');
+    $list = $this->getfilecontainer(dirname(__FILE__).'/wechatcache/events.php');
     if(isset($list['subscribe']))
       return $this->getFeedbacks($list['subscribe']['menuId']);
     return array();
   }
 
   private function clickField($key){
-    $list = $this->getfilecontainer(dirname(__FILE__).'./wechatcache/events.php');
+    $list = $this->getfilecontainer(dirname(__FILE__).'/wechatcache/events.php');
     if(isset($list[$key]))
       return $this->getFeedbacks($list[$key]['menuId']);
     return array();
   }
 
   private function defaultField(){
-    $list = $this->getfilecontainer(dirname(__FILE__).'./wechatcache/events.php');
+    $list = $this->getfilecontainer(dirname(__FILE__).'/wechatcache/events.php');
     if(isset($list['defaultback']))
       return $this->getFeedbacks($list['defaultback']['menuId']);
     return array();
   }
 
   private function searchStore($latsmall, $latbig, $lngsmall, $lngbig){
-    $list = $this->getfilecontainer(dirname(__FILE__).'./wechatcache/stores.php');
+    $list = $this->getfilecontainer(dirname(__FILE__).'/wechatcache/stores.php');
     $result = array();
     if($list){
       foreach ($list as $value) {
