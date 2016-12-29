@@ -4,7 +4,7 @@ require_once dirname(__FILE__).'/WechatResponse.php';
 
 if(isset($_GET["echostr"])){
   header("Content-type:text/xml");
-  $_wechatinfo = require_once(dirname(__FILE__).'/wechatinfo.php');
+  $_wechatinfo = require_once(dirname(__FILE__).'/config.php');
   $signature = $_GET["signature"];
   $timestamp = $_GET["timestamp"];
   $nonce = $_GET["nonce"];

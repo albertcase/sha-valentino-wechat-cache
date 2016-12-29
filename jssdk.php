@@ -8,8 +8,8 @@ header("Content-type:application/javascript");
 $jsid = isset($newpath['0']['1'])?$newpath['0']['1']:'';
 
 $ids = array();
-if(file_exists(dirname(__FILE__).'/wechatcache/jssdkids.php'))
-  $ids = require_once(dirname(__FILE__).'/wechatcache/jssdkids.php');
+if(file_exists(dirname(__FILE__).'/data/jssdkids.php'))
+  $ids = require_once(dirname(__FILE__).'/data/jssdkids.php');
 
 if(!in_array($jsid, $ids)){
   print_r("this jssdk not exists");
