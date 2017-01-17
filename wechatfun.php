@@ -10,7 +10,7 @@ class wechatfun{
   public function __construct(){
     $this->_wechatinfo = require_once(dirname(__FILE__).'/config.php');
     $this->_redis = new \Redis();
-    $this->_redis->pconnect($this->_wechatinfo['redis_ip'], $this->_wechatinfo['redis_port']);
+    $this->_redis->connect($this->_wechatinfo['redis_ip'], $this->_wechatinfo['redis_port']);
     $this->_TOKEN = $this->_wechatinfo['TOKEN'];
     $this->_appid = $this->_wechatinfo['appid'];
     $this->_secret = $this->_wechatinfo['secret'];
