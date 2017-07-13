@@ -15,12 +15,9 @@ if(!in_array($jsid, $ids)){
   print_r("this jssdk not exists");
   exit;
 }
+if(!isset($url = $_GET['referer']))
+  $url = isset($_SERVER['HTTP_REFERER']) ? $_SERVER['HTTP_REFERER'] : '';
 
-if(isset($_SERVER['HTTP_REFERER'])){
-  $url = $_SERVER['HTTP_REFERER'];
-}else{
-  $url = $_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];
-}
 $wechatfun = new wechatfun();
 $jssdk = $wechatfun->getJsSDK($url);
 $jscode = array(
