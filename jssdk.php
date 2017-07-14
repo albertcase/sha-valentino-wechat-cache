@@ -7,7 +7,7 @@ if(!isset($_SERVER['REQUEST_URI'])) {
 }
 
 $routeArr = explode('/', $_SERVER['REQUEST_URI']);
-$id = $routeArr['5'];
+$id = $routeArr['4'];
 
 if(!in_array($id, $conf['jssdk_id_list'])) {
     exit('jssdk id is not exist');
