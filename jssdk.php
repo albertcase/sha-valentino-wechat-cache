@@ -13,15 +13,15 @@ if(!in_array($id, $conf['jssdk_id_list'])) {
     exit('jssdk id is not exist');
 }
 
-if(!isset($_GET['referer'])) {
-    $url = $_GET['referer'];
-} else {
-    $url = isset($_SERVER['HTTP_REFERER']) ? $_SERVER['HTTP_REFERER'] : '';
-}
+if(isset($_SERVER['HTTP_REFERER']))
+    $url = $_SERVER['HTTP_REFERER'];
+else
+    $url = isset($_GET['referer']) ? $_GET['referer'] : '';
 
 header("Content-type:application/javascript");
 $jssdk = new Jssdk($conf);
-print_r($jssdk->getJssdk($url));exit;
+print_r($jssdk->getJssdk($url));
+exit;
 
 class Jssdk
 {
