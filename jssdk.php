@@ -41,10 +41,10 @@ class Jssdk
         if($ticket = $this->redis->get(self::WECHAT_JSSDK_KEY)) {
             return $ticket;
         } else {
-            $url = 'http://valentinowechat.samesamechina.com/wechat/get/jssdk';
+            $url = 'http://valentinowechat.samesamechina.com/wechat/retrieve/jsapi_ticket';
             $data = file_get_contents($url);
             $data = json_decode($data);
-            return $data['ticket'];
+            return $data->data;
         }
     }
 
