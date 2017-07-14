@@ -28,6 +28,7 @@ class Jssdk
     private $redis;
     private $conf;
     const WECHAT_JSSDK_KEY = 'wechat:token:prefix:jsapi_ticket';
+    const WECHAT_RETRIEVE_JSSDK = 'http://valentinowechat.samesamechina.com/wechat/retrieve/jsapi_ticket';
 
     public function __construct($conf)
     {
@@ -41,7 +42,7 @@ class Jssdk
         if($ticket = $this->redis->get(self::WECHAT_JSSDK_KEY)) {
             return $ticket;
         } else {
-            $url = 'http://valentinowechat.samesamechina.com/wechat/retrieve/jsapi_ticket';
+            $url = self::WECHAT_RETRIEVE_JSSDK;
             $data = file_get_contents($url);
             $data = json_decode($data);
             return $data->data;
