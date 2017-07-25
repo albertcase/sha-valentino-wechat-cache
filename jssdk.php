@@ -16,7 +16,7 @@ if(!in_array($id, $conf['jssdk_id_list'])) {
 if(isset($_SERVER['HTTP_REFERER']))
     $url = $_SERVER['HTTP_REFERER'];
 else
-    $url = isset($_GET['referer']) ? $_GET['referer'] : '';
+    $url = isset($_GET['referer']) ? urldecode($_GET['referer']) : '';
 
 header("Content-type:application/javascript");
 $jssdk = new Jssdk($conf);
