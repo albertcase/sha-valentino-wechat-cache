@@ -26,4 +26,9 @@
 	      		'showOptionMenu',
 	      		'closeWindow',
 			),
+		'oauth_domain' => array(
+			'valentino_shop' => 'wechatshop.valentinoworld.com',
+      		'anketest' => 'anketest.samesamechina.com',
+			),
+		'redirect_url' => '',
 	);
